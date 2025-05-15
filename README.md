@@ -22,8 +22,17 @@ This generic table component uses the `TableDataType` for all data. It will auto
 
 - The `TableDataType` can be found in `src/lib/types/table.ts`
 - The individual tables can be found in `src/components/table`.
-    - You should only need to use the `Table` component from `table.ts`
+    - You should only need to use the `Table` component from `table.tsx`
 
 #### DropdownSI
 
-This component provides a MUI dropdown that only allows for a single input. It needs to be provided with a string array of options, a label, and a callback function. When the selected value is changed, the callback function is called with a string-representation of the value.
+This component provides a MUI dropdown that only allows for a single input. It needs to be provided with an array of `options`, a `label`, and a callback function. When the selected value is changed, the callback function is called with a string-representation of the value.
+
+- The component can be found in `src/components/input/dropdownSI.tsx`
+- The type used by the `options` prop can be found in `src/lib/types/input.ts`
+
+#### ComboBox
+
+This component provides a ComboBox—a dropdown selector that allows multiple values. It needs to be provided a string array of `options`, a `label`, and `id`. It accepts an optional `defaultValue` and `onValueChanged` callback.
+
+- The component can be found in `src/components/input/comboBox.tsx`
