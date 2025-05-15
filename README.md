@@ -4,17 +4,8 @@ This project provides a basic template for new Next.js projects that can be depl
 
 Please ensure a `.env` file exists, as this is important for the base path configuration.
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+### Base Path Configuration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The Next.js base path is automatically configured for this project in the `next.config.ts` file. The only prerequisite you need to complete before it is fully functional is to setup the `NEXT_PUBLIC_BASE_PATH` variable in the environent file. This variable will be exposed to the client for convienence, and should only be set to the base path the app is deployed under.
