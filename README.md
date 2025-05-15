@@ -24,4 +24,6 @@ This generic table component uses the `TableDataType` for all data. It will auto
 - The individual tables can be found in `src/components/table`.
     - You should only need to use the `Table` component from `table.ts`
 
-#### 
+#### DropdownSI
+
+This component provides a MUI dropdown that only allows for a single input. It needs to be provided with a string array of options, a label, and a callback function. When the selected value is changed, the callback function is called with a string-representation of the value.
