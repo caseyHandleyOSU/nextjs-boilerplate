@@ -6,6 +6,10 @@ Please ensure a `.env` file exists, as this is important for the base path confi
 
 ## Features
 
+### Folder Structure
+
+This app provides a basic folder structure for a Next api, components, contexts, and logic.
+
 ### Base Path Configuration
 
 The Next.js base path is automatically configured for this project in the `next.config.ts` file. The only prerequisite you need to complete before it is fully functional is to setup the `NEXT_PUBLIC_BASE_PATH` variable in the environent file. This variable will be exposed to the client for convienence, and should only be set to the base path the app is deployed under.
